@@ -12,17 +12,30 @@ $ docker build -f Dockerfile -t hello-docker .
 * docker run --name NAME -p EXPOSED_PORT DOCKER_IMAGE_NAME
 
 ```sh
-docker run --hello-docker -p 8080:8080 hello-docker
+$ docker run --hello-docker -p 8080:8080 hello-docker
 ```
 
 #### Command to list all local images
-* docker images
+
+```sh
+$ docker images
+```
 
 #### Command to list all virtual docker machines
-* docker-machine ls
+
+```sh
+$ docker-machine ls
+```
 
 #### Command to list all the running docker containers
-* docker container ls
+
+```sh
+$ docker container ls
+```
 
 #### Command to stop the running container by id
 * docker container stop CONTAINER_ID
+
+```sh
+$ docker container stop a67brj377378db
+```
